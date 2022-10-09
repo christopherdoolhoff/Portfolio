@@ -209,3 +209,7 @@ h5 {
         height: 300px;
     }
   }
+  @media screen and (min-width: 1000px) {
+    #info {
+        transition: none 0s}
+  }
