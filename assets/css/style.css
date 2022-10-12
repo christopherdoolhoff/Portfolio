@@ -179,7 +179,7 @@ nav a:hover {
     padding: 1px;
     box-shadow: 10px 10px 5px black;
     margin: 20px;
-    filter: grayscale(100%);
+    filter: grayscale(50%);
 }
 
 /* Make first work sample image larger */
@@ -191,6 +191,8 @@ nav a:hover {
 .card img:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
+    border-color: chartreuse;
+    border-width: 3px;
 }
 
 /* Screen size section */
