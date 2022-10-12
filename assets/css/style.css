@@ -130,13 +130,16 @@ nav a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-p{
+
+p {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%; 
+    margin-top: 2%;
     word-break: break-all;
+    margin: 1%;
 }
-.card{
+
+.card {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
@@ -183,61 +186,61 @@ h5 {
 }
 
 @media screen and (max-width: 1000px) {
+
     main,
     nav {
-      flex-direction: column;
-      max-width: fit-content;
+        flex-direction: column;
+        max-width: fit-content;
     }
+
     #info {
-        display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        min-width: 300px;
-        flex-direction: row;
-        position: absolute;
         top: 1660px;
         left: 2px;
         transition: none 0s;
     }
+
     .dropdown .dropbtn {
         text-align: center;
         align-items: center;
         display: block;
         align-items: center;
     }
-    footer{
+
+    footer {
         height: 300px;
     }
-  }
-  @media screen and (max-width: 896px) {
+}
+
+@media screen and (max-width: 896px) {
+
     main,
     nav {
-      flex-direction: column;
-      max-width: fit-content;
+        flex-direction: column;
+        max-width: fit-content;
     }
+
     #info {
-        display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        min-width: 300px;
-        flex-direction: row;
-        position: absolute;
         top: 2260px;
         left: 2px;
         transition: none 0s;
     }
+
     .dropdown .dropbtn {
         text-align: center;
         align-items: center;
         display: block;
         align-items: center;
     }
-    footer{
+
+    footer {
         height: 300px;
     }
-  }
+}
 
-  @media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     #info {
-        transition: none 0s}
-  }
+        transition: none 0s
+    }
+}
