@@ -25,16 +25,38 @@ header {
     height: fit-content;
 }
 
+/* tital font and color */
 .title {
     font-size: 250%;
     color: gray
 }
 
+/* set text size, color, and other properties of heading and paragraph elements */
 h2 {
     color: gray;
     font-size: 150%;
 }
 
+h4 {
+    text-decoration: underline;
+    font-size: 200%;
+}
+
+h5 {
+    font-size: 150%;
+    background-color: rgb(34, 5, 5);
+    opacity: .9;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    word-break: break-all;
+    margin: 1%;
+}
+
+/* styling for profile picture */
 #pic {
     height: 200px;
     width: 166px;
@@ -47,6 +69,7 @@ h2 {
     margin: 20px;
 }
 
+/* contact info section */
 #info {
     display: flex;
     justify-content: space-between;
@@ -69,6 +92,7 @@ h2 {
     background-color: rgb(42, 126, 165);
 }
 
+/* Navigation bar section */
 nav {
     display: flex;
     background-color: #7fd892;
@@ -131,29 +155,11 @@ nav a:hover {
     display: block;
 }
 
-p {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    word-break: break-all;
-    margin: 1%;
-}
-
+/* style for cards */
 .card {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
-}
-
-h4 {
-    text-decoration: underline;
-    font-size: 200%;
-}
-
-h5 {
-    font-size: 150%;
-    background-color: rgb(34, 5, 5);
-    opacity: .9;
 }
 
 #aboutme,
@@ -175,6 +181,7 @@ h5 {
     filter: grayscale(100%);
 }
 
+/* Make first work sample image larger */
 #prework img {
     height: 250px;
     width: 500px
@@ -185,6 +192,7 @@ h5 {
     transform: scale(1.1);
 }
 
+/* Screen size section */
 @media screen and (max-width: 1000px) {
 
     main,
