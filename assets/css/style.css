@@ -248,6 +248,7 @@ nav a:hover {
     }
 }
 
+/* fix animation when resizing */
 @media screen and (min-width: 1000px) {
     #info {
         transition: none 0s
