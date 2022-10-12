@@ -54,6 +54,7 @@ p {
     margin-top: 2%;
     word-break: break-all;
     margin: 1%;
+    text-indent: 50px
 }
 
 /* styling for profile picture */
@@ -230,7 +231,7 @@ nav a:hover {
 
     #info {
         align-items: flex-start;
-        top: 2260px;
+        top: 2320px;
         left: 2px;
         transition: none 0s;
     }
@@ -243,7 +244,7 @@ nav a:hover {
     }
 
     footer {
-        height: 300px;
+        height: 340px;
     }
 }
 
