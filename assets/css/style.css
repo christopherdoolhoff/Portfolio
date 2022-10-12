@@ -161,6 +161,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
+    justify-content: center;
 }
 
 #aboutme,
